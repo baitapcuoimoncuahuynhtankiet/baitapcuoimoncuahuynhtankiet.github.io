@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	margin: 0;
+	padding: 0;
+    align-content: center;
+}
+
+.menu
+{
+    width: 100%;
+    height: 100px;
+    background-color: #eeeef0;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{  width: 173px;
+  height: 71px;
+}
+
+.menu2
+{padding-top: 15px;}
+
+
+ul
+{
+float: right;	
+list-style:none;
+}
+ul li
+{
+	float: right;
+	padding: 5px;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #8d8d8d;
+	font-size: 12pt;
+    padding-right: 25px;
+}
+
+ul li a:hover
+{
+    text-decoration: none;
+	color: #FF873F;	
+}
+
+
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg01.png");
+	background-size: cover;
+}
+
+
+.We-Are-Love-Interior-Design {
+  width: 1159px;
+  height: 79px;
+  margin: 287px 0 0 9px;
+  font-family: Roboto;
+  font-size: 83.5px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.61;
+  letter-spacing: 4.18px;
+  text-align: left;
+  color: #f66c27;
+}
+
+.We-Are-Love-Interior-Design .text-style-1 {
+  color: #f66c27 !important;
+}
+
+.content01
+{
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.button1
+{
+background-color: #f48146;
+  border: none;
+border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+    float: left;
+}
+
+
+.How-can-We-Help {
+  width: 356px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.56;
+  letter-spacing: 0.45px;
+  text-align:center;
+  color: #000000;
+}
+
+.content02
+{
+width: 100%;
+height: 375px;
+background-color: #ffffff;
+padding-left: 15%;
+padding-right: 15%;
+      text-align: center;
+    align-items: center;
+  display: inline-block;
+    justify-content: center;
+}
+
+.content0202
+{
+    width: 354px;
+    height: 375px;
+}
+
+.textmap
+{
+    text-align:center;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.map
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../images/map.png");
+}
+
+.email
+{
+    width: 1600px;
+  height: 361px;
+  padding: 94px 0 74px 0;
+  background-image: linear-gradient(to top, #ff7b38, #f9915c);
+    align-items: center;
+    align-content: center;
+}
+
+.form-control
+{
+    width: 486px;
+  height: 54px;
+  background-color: #f3f2f2;
+  color: white;
+  border: none;
+  border-radius: 500px;
+  cursor: pointer;
+}
+
+
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #f48146;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  width: 200px;
+    height: 54px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+      font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: 0.36px;
+    padding-top: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 12px 35px 0 rgba(0,0,0,0.19);
+}
+
+
+.content03
+{
+  width: 100%;
+  height: 500px;
+  background-color: #f8f8f8;
+padding: 150px 25% 150px 25%;
+    align-items: center;
+}
+
+
+.content04
+{
+  width: 100%;
+  height: 900px;
+  background-color: #f8f8f8;
+padding: 75px 10% 75px 10%;
+align-items: center;
+}
+
+
+.img04
+{
+  background-color: #f8f8f8;
+padding: 0 15px 0 15px;
+align-items: center;
+}
+
+.footer
+{
+    width: 100%;
+    height: 500px;
+    padding: 0 15% 50px 10;
+    background-color: #f48146;
+    
+}
+
+.form
+{
+  background-color: #ffffff;
+    width: auto;
+    height: auto;
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    
+}
+
+.contact
+{
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    width: 50%;
+    height: 500px;
+    
+}
+
+
